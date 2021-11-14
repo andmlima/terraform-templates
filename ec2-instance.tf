@@ -8,3 +8,10 @@ resource "aws_instance" "linuxserver" {
     Project = "TerraformLab"
   }
 }
+output "PublicIP" {       
+  value = aws_instance.linuxserver.public_ip
+}
+
+output "PrivateIP" {
+  value = aws_instance.linuxserver.private_ip
+}
