@@ -1,5 +1,5 @@
 # Provisionando instancia EC2
 - Linux server 
-- Security group default
+- Security group criado 
 - Usando key pair 
 
