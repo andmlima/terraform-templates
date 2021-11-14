@@ -1,4 +1,5 @@
-Terraform templates.
+# Provisionando instancia EC2
+- Linux server 
+- Security group default
+- Usando key pair 
 
-Creating EC2 Linux instance
-Simple instance
