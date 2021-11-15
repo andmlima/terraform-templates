@@ -1,9 +1,9 @@
 resource "aws_instance" "linuxserver" {
   ami               = var.AMIS[var.REGION]
   instance_type     = "t2.micro"
-  availability_zone = var.ZONE1
-  key_name          = "andmlima-aws"
+  subnet_id         = aws_subnet.prod-pub-1.id #selecionando a subnet
   vpc_security_group_ids = [aws_security_group.ssh_prod_sg.id]
+  key_name          = "andmlima-aws"
 
   tags = {
     Name    = "Linux01"

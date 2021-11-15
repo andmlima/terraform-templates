@@ -2,8 +2,16 @@ variable REGION {
   default = "sa-east-1"
 }
 
+variable USER {
+  default = "ec2-user"
+}
+
 variable ZONE1 {
   default = "sa-east-1a"
+}
+
+variable ZONE2 {
+  default = "sa-east-1b"
 }
 
 variable AMIS {
