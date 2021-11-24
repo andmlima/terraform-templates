@@ -12,11 +12,11 @@ variable AMIS {
 }
 
 variable PRIV_KEY_PATH {
-  default = "amlima-aws-virginia"
+  default = "vprofilekey"
 }
 
 variable PUB_KEY_PATH {
-  default = "amlima-aws-virginia.pub"
+  default = "vprofilekey.pub"
 }
 
 variable USERNAME {
