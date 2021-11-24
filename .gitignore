@@ -1,1 +1,4 @@
-teste
+.terraform
+terraform.tfstate
+vprofilekey
+vprofilekey.pub
