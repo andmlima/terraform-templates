@@ -6,10 +6,12 @@ https://github.com/devopshydclub/vprofile-project
 
 ## Informações da aplicação
 Aplicação Web desenvolvida em Java, componentes provisionados para o ambiente da aplicação:
-<ul> S3 bucket </ul>
-<ul>VPC</ul>
-<ul>RDS - MySQL database</ul>
-<ul>ElastiCache</ul>
-<ul>Amazon MQ</ul>
-<ul>BeansTalk</ul>
-<ul>EC2 Ubuntu instance</ul>
+<ul> 
+    <li>S3 bucket</li>
+    <li>VPC</li>
+    <li>RDS - MySQL database</li>
+    <li>ElastiCache</li>
+    <li>Amazon MQ</li>
+    <li>BeansTalk</li>
+    <li>EC2 Ubuntu instance</li>
+</ul>
