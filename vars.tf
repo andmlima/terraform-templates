@@ -16,7 +16,7 @@ variable PRIV_KEY_PATH {
 }
 
 variable PUB_KEY_PATH {
-  default = "vprofilekey.pub"
+  default = "andmlima-key.pub"
 }
 
 variable USERNAME {
