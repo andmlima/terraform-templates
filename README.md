@@ -1,11 +1,14 @@
 # Terraform projeto Beanstalk
+Provisionar BeansTalk estrutura e hospedar uma aplicação Java.
+
 Repositório Github com todos projetos do treinamento 36-projetos
 https://github.com/andmlima/36projetos
 https://github.com/devopshydclub/vprofile-project
 
 
-## Informações da aplicação
-Aplicação Web desenvolvida em Java, componentes provisionados para o ambiente da aplicação:
+
+## Recursos do ambiente
+o ambiente será composto utilizando os seguintes recursos AWS:
 <ul> 
     <li>S3 bucket</li>
     <li>VPC</li>
