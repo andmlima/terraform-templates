@@ -56,13 +56,18 @@ o ambiente será composto utilizando os seguintes recursos AWS:
 
 ### Exemplo de como fica as linhas: 
  jdbc.url=jdbc:mysql://terraform-20211124173249173700000001.cypcxijrawk2.us-east-1.rds.amazonaws.com:3306/accounts?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+
  memcached.active.host=vprofile-cache.gdntv1.cfg.use1.cache.amazonaws.com
+
  rabbitmq.address=b-fd59acf9-176b-4cb4-9a0f-9ea7cdf8d2a7-1.mq.us-east-1.amazonaws.com
+
  rabbitmq.port=5671
+
  rabbitmq.username=rabbit
+ 
  rabbitmq.password=Gr33n@pple123456
 
-###Gerando o arquivo WAR do artefato, ir no diretorio onde esta o arquivo pom.xml para gerar o artefado
+### Gerando o arquivo WAR do artefato, ir no diretorio onde esta o arquivo pom.xml para gerar o artefado
  cd ../../..
  mvn install
  cd target
