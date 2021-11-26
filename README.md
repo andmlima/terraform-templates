@@ -1,5 +1,5 @@
 # Terraform projeto Beanstalk
-Provisionar BeansTalk estrutura e hospedar uma aplicação Java.
+Provisionar BeansTalk utilizando Terraform e em seguida hospedar uma aplicação Java.
 
 Repositório Github com todos projetos do treinamento 36-projetos
 https://github.com/andmlima/36projetos
