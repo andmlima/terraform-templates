@@ -28,7 +28,7 @@ o ambiente será composto utilizando os seguintes recursos AWS:
   Gerar o artefado da aplicação
 
 ### Resumo das etapas  
-  atualizar arquivo application.properties da aplicação Java para utilizar as configurações do ambiente provisionado. Nesse arquivo será configurado as seguintes parametros:
+  atualizar arquivo <b>application.properties</b> da aplicação Java para utilizar as configurações do ambiente provisionado. Nesse arquivo será configurado as seguintes parametros:
   
   Endpoint da database;
   
@@ -88,7 +88,7 @@ o ambiente será composto utilizando os seguintes recursos AWS:
 
  rabbitmq.password=Gr33n@pple123456
 
-### Gerando o arquivo WAR do artefato, ir no diretorio onde esta o arquivo pom.xml para gerar o artefado
+### Gerando o arquivo WAR do artefato, ir no diretorio onde esta o arquivo <b>pom.xml</b> para gerar o artefado
  cd ../../..
 
  mvn install
