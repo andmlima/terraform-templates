@@ -24,6 +24,27 @@ o ambiente será composto utilizando os seguintes recursos AWS:
 ## Projeto 
 ![image](/imagens/projeto.png)
 
+## Step-by-Step provisionando a estrutura citada acima
+### Criar diretorio e clonar o repositorio terraform-templates apontando a branch projeto-completo
+  mkdir C:/Temp/terraform-templates/terraform-beanstalk
+  cd C:/Temp/terraform-templates/terraform-beanstalk
+  git clone -b projeto-completo https://github.com/andmlima/terraform-templates.git
+  cd terraform-templates
+
+### Configurar a pubica key vprofilekey
+  configurar localmente a public key com nome vprofilekey
+
+### Terraform apply
+  executar o terraform, comandos:
+````
+terraform init
+terraform fmt
+terraform validate
+terraform plan
+terraform apply
+````  
+
+
 ## Aplicação
   Configurar uma aplicação Java para utilizar o ambiente provisionado
   
