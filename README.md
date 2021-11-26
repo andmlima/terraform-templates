@@ -2,7 +2,9 @@
 Provisionar BeansTalk utilizando Terraform e em seguida hospedar uma aplicação Java.
 
 Repositório Github com todos projetos do treinamento 36-projetos
+
 https://github.com/andmlima/36projetos
+
 https://github.com/devopshydclub/vprofile-project
 
 
