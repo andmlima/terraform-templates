@@ -26,13 +26,12 @@ o ambiente será composto utilizando os seguintes recursos AWS:
 
 ## Step-by-Step provisionando a estrutura citada acima
 ### Criar diretorio e clonar o repositorio terraform-templates apontando a branch projeto-completo
+````
   mkdir C:/Temp/terraform-templates/terraform-beanstalk
-
   cd C:/Temp/terraform-templates/terraform-beanstalk
-  
   git clone -b projeto-completo https://github.com/andmlima/terraform-templates.git
-  
   cd terraform-templates
+````
 
 ### Configurar a pubica key vprofilekey
   configurar localmente a public key com nome vprofilekey
@@ -70,24 +69,21 @@ terraform apply
 
 #### Step by step:  
 #### Download do codigo da aplicação  
+````
  mkdir C:/Temp/terraform-templates/app-aterfato
- 
  cd C:/Temp/terraform-templates/app-aterfato
- 
  git clone -b vp-rem https://github.com/andmlima/36projetos.git
- 
  cd  36projetos
- 
  git checkout vp-rem
- 
  cat .git/config
+````
 
 #### Editar o arquivo Java application.properties adicionando os endpoints e porta dos componentes
- cd src/main/resources/
-
- vim application.properties
-
-  *altualizar as seguinte linhas:
+````
+cd src/main/resources/
+vim application.properties
+````
+*altualizar as seguinte linhas:
 
   jdbc.url=<endpoint da database>
 
@@ -115,11 +111,11 @@ terraform apply
  rabbitmq.password=Gr33n@pple123456
 
 ### Gerando o arquivo WAR do artefato, ir no diretorio onde esta o arquivo <b>pom.xml</b> para gerar o artefado
+ ````
  cd ../../..
-
  mvn install
-
  cd target
+````
 
 ### Upload e Deploy do WAR artefado no BeansTalk
  cd target
