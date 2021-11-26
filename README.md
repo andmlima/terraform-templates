@@ -36,6 +36,9 @@ o ambiente será composto utilizando os seguintes recursos AWS:
 ### Configurar a pubica key vprofilekey
   configurar localmente a public key com nome vprofilekey
 
+#### Variavel MYIP 
+atualizar a variavel MYIP em vars.tf com o IP local
+
 ### Terraform apply
   executar o terraform, comandos:
 ````
