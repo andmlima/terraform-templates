@@ -16,7 +16,7 @@ variable PRIV_KEY_PATH {
 }
 
 variable PUB_KEY_PATH {
-  default = "andmlima-key.pub"
+  default = "vprofilekey.pub"
 }
 
 variable USERNAME {
@@ -24,7 +24,7 @@ variable USERNAME {
 }
 
 variable MYIP {
-  default = "186.249.143.235/32"
+  default = "186.249.138.207/32"
 }
 
 variable rmquser {
