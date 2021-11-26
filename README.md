@@ -29,7 +29,7 @@ o ambiente será composto utilizando os seguintes recursos AWS:
 ````
   mkdir C:/Temp/terraform-templates/terraform-beanstalk
   cd C:/Temp/terraform-templates/terraform-beanstalk
-  git clone -b projeto-completo https://github.com/andmlima/terraform-templates.git
+  git clone -b beanstalk-projeto-completo https://github.com/andmlima/terraform-templates.git
   cd terraform-templates
 ````
 
